@@ -1,4 +1,4 @@
-# shiba-ws-util@1.0.0
+# shiba-ws-util@1.0.1
 
 WebSocket utility for shiba(v/w)
 
