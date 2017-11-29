@@ -1,6 +1,6 @@
 {
   "name": "shiba-ws-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WebSocket utility for shiba(v/w)",
   "main": "lib",
   "browser": "shim",

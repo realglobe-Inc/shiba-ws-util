@@ -3,38 +3,28 @@
 WebSocket utility for shiba(v/w)
 
 + Functions
-  + [create(args)](#shiba-ws-util-function-create)
-+ [`ShibaWsUtil`](#shiba-ws-util-classes) Class
-  + [new ShibaWsUtil()](#shiba-ws-util-classes-shiba-ws-util-constructor)
+  + [wsCall(ws, id, method, param)](#shiba-ws-util-function-ws-call)
+  + [wsProxy()](#shiba-ws-util-function-ws-proxy)
 
 ## Functions
 
-<a class='md-heading-link' name="shiba-ws-util-function-create" ></a>
+<a class='md-heading-link' name="shiba-ws-util-function-ws-call" ></a>
 
-### create(args) -> `ShibaWsUtil`
+### wsCall(ws, id, method, param)
 
-Create a ShibaWsUtil instance
+Method call via ws
 
 | Param | Type | Description |
 | ----- | --- | -------- |
-| args | * |  |
+| ws | Object | WS instance |
+| id | string | Invocation id |
+| method | string | Method to invoke |
+| param | Array | Method params |
 
+<a class='md-heading-link' name="shiba-ws-util-function-ws-proxy" ></a>
 
+### wsProxy()
 
-<a class='md-heading-link' name="shiba-ws-util-classes"></a>
-
-## `ShibaWsUtil` Class
-
-
-
-
-
-
-<a class='md-heading-link' name="shiba-ws-util-classes-shiba-ws-util-constructor" ></a>
-
-### new ShibaWsUtil()
-
-Constructor of ShibaWsUtil class
 
 
 
