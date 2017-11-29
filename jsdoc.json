@@ -1,1 +1,110 @@
-{}
+{
+    "functions": [
+        {
+            "name": "wsCall",
+            "access": "",
+            "virtual": false,
+            "description": "Method call via ws",
+            "parameters": [
+                {
+                    "name": "ws",
+                    "type": "Object",
+                    "description": "WS instance",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "id",
+                    "type": "string",
+                    "description": "Invocation id",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "method",
+                    "type": "string",
+                    "description": "Method to invoke",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "param",
+                    "type": "Array",
+                    "description": "Method params",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "",
+                "description": "Promise"
+            }
+        },
+        {
+            "name": "wsProxy",
+            "access": "",
+            "virtual": false,
+            "description": "",
+            "parameters": [],
+            "examples": []
+        },
+        {
+            "name": "wsCall",
+            "access": "",
+            "virtual": false,
+            "description": "Method call via ws",
+            "parameters": [
+                {
+                    "name": "ws",
+                    "type": "Object",
+                    "description": "WS instance",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "id",
+                    "type": "string",
+                    "description": "Invocation id",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "method",
+                    "type": "string",
+                    "description": "Method to invoke",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                },
+                {
+                    "name": "param",
+                    "type": "Array",
+                    "description": "Method params",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "",
+                "description": "Promise"
+            }
+        },
+        {
+            "name": "wsProxy",
+            "access": "",
+            "virtual": false,
+            "description": "",
+            "parameters": [],
+            "examples": []
+        }
+    ]
+}
