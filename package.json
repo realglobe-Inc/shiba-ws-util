@@ -39,7 +39,7 @@
     "the-script-share": "^1.0.5",
     "the-script-update": "^1.0.0",
     "the-templates": "^2.1.0",
-    "ws": "^3.3.2"
+    "ws": "^3.3.3"
   },
   "engines": {
     "node": ">=8",

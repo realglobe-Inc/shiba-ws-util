@@ -1,13 +1,19 @@
-# shiba-ws-util@1.0.1
+# shiba-ws-util@1.0.2
 
 WebSocket utility for shiba(v/w)
 
 + Functions
+  + [wsAlive()](#shiba-ws-util-function-ws-alive)
   + [wsCall(ws, id, method, param)](#shiba-ws-util-function-ws-call)
   + [wsProxy()](#shiba-ws-util-function-ws-proxy)
 
 ## Functions
 
+<a class='md-heading-link' name="shiba-ws-util-function-ws-alive" ></a>
+
+### wsAlive()
+
+Bind ws alive function
 <a class='md-heading-link' name="shiba-ws-util-function-ws-call" ></a>
 
 ### wsCall(ws, id, method, param)

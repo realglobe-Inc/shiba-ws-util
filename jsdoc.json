@@ -1,6 +1,14 @@
 {
     "functions": [
         {
+            "name": "wsAlive",
+            "access": "",
+            "virtual": false,
+            "description": "Bind ws alive function",
+            "parameters": [],
+            "examples": []
+        },
+        {
             "name": "wsCall",
             "access": "",
             "virtual": false,
@@ -50,6 +58,14 @@
             "access": "",
             "virtual": false,
             "description": "",
+            "parameters": [],
+            "examples": []
+        },
+        {
+            "name": "wsAlive",
+            "access": "",
+            "virtual": false,
+            "description": "Bind ws alive function",
             "parameters": [],
             "examples": []
         },
